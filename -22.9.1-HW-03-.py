@@ -12,8 +12,8 @@ def binary_search(array, element, left, right):
     else:
         return binary_search(array, element, middle + 1, right)
 
-array = list(map(int, input("Введите целые числа в любом порядке через пробел:").split()))
-element = int(input("Введите любое положительное число из списка:"))
+array = list(map(int, input("Введите целые числа в любом порядке через пробел: ").split()))
+element = int(input("Введите любое положительное число из списка: "))
 
 for i in range(len(array)):
     for j in range(len(array) - i - 1):
